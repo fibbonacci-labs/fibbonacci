@@ -1,0 +1,106 @@
+---
+import Container from "./Container.astro"
+
+---
+
+<div id="how">
+  <section class="lg:p-8 ">
+    <div class="px-8 py-12 mx-auto md:px-12 lg:px-16 xl:px-36 2xl:max-w-7xl">
+       <div class="lg:text-center max-w-2xl lg:mx-auto">
+          <span class="text-blue-400">Como funciona?</span>
+          <h2 class="text-3xl tracking-tighter mt-6 font-light lg:text-4xl text-white">
+             Live data charts for <span class="block text-zinc-400">
+             up-to-the-minute insights</span>
+          </h2>
+          <p class="mt-5 text-white max-w-md mx-auto">
+             Tell a compelling story with our engaging infographic charts. Transform
+             your data into visually stunning infographics that captivate your
+             audience.
+          </p>
+       </div>
+       <div class="grid grid-cols-1 gap-4 list-none mt-12 lg:gap-3 lg:grid-cols-2">
+          <div class="mt-12 h-full lg:mt-0 bg-gradientdown ring-1 ring-white/10 rounded-4xl p-8 lg:p-20">
+             <h2 class="text-xl py-3 mt-6 tracking-tighter font-medium text-white">
+                Export and Sharing Options
+             </h2>
+             <p class="mt-4 text-sm text-zinc-400">
+                Stay up-to-date with live data charts. Our charts dynamically update
+                as new data becomes available, giving you real-time insights into your
+                metrics.
+             </p>
+             <div class="mt-12"><img src="/images/assets/square.svg" alt=""></div>
+          </div>
+          <div class="mt-12 h-full lg:mt-0 bg-gradientdown ring-1 ring-white/10 rounded-4xl p-8 lg:p-20">
+             <h2 class="text-xl py-3 mt-6 tracking-tighter font-medium text-white">
+                Interactive Annotations
+             </h2>
+             <p class="mt-4 text-sm text-zinc-400">
+                Stay up-to-date with live data charts. Our charts dynamically update
+                as new data becomes available, giving you real-time insights into your
+                metrics.
+             </p>
+             <div class="mt-12"><img src="/images/assets/circuitry.svg" alt=""></div>
+          </div>
+          <div class="mt-12 h-full lg:mt-0 bg-gradientup ring-1 text-center ring-white/10 rounded-4xl p-8 lg:p-20 lg:col-span-full">
+             <h2 class="text-3xl mt-6 tracking-tighter font-light lg:text-4xl text-white">
+                Export and Sharing Options
+             </h2>
+             <p class="mt-4 text-sm text-zinc-300 max-w-xl mx-auto">
+                Stay up-to-date with live data charts. Our charts dynamically update
+                as new data becomes available, giving you real-time insights into your
+                metrics.
+             </p>
+             <div class="mt-10 flex items-center justify-center gap-x-6"><a href="#" class="text-sm py-2 px-4 border focus:ring-2 rounded-full border-transparent bg-white hover:bg-white/10 text-black duration-200 focus:ring-offset-2 focus:ring-white hover:text-white inline-flex items-center justify-center ring-1 ring-transparent">Get started</a><a href="#" class="text-sm hover:text-blue-200 text-white">Learn more <span aria-hidden="true">→</span></a></div>
+          </div>
+       </div>
+    </div>
+ </section>
+</div>
+<style is:global>
+  *, :before, :after {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(54 78 245 / .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+}
+.rounded-4xl {
+    border-radius: 2rem;
+}
+  .ring-white\/10 {
+    --tw-ring-color: rgb(255 255 255 / .1);
+}
+.ring-1 {
+    --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000);
+}
+.bg-gradientdown {
+    background-image: radial-gradient(140% 107.13% at 50% 10%,transparent 37.41%,#364ef580 69.27%,#6698ff 100%);
+}
+.bg-black {
+      --tw-bg-opacity: 1;
+      background-color: rgb(15 16 20 / var(--tw-bg-opacity));
+  }
+  .bg-ebony {
+  --tw-bg-opacity: 1;
+  background-color: rgb(26 28 35 / var(--tw-bg-opacity));
+  }
+  .shadow-inset {
+  --tw-shadow: inset 6px 84px 79px -40px hsla(0,0%,100%,.025), inset 0 -4px 1px -3px hsla(0,0%,100%,.25), inset 0 4px 1px -3px hsla(0,0%,100%,.25);
+  --tw-shadow-colored: inset 6px 84px 79px -40px var(--tw-shadow-color), inset 0 -4px 1px -3px var(--tw-shadow-color), inset 0 4px 1px -3px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow);
+  }
+</style>
