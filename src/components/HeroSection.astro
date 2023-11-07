@@ -8,65 +8,78 @@ import Container from "./Container.astro"
         <div class="blur-[106px] h-56 bg-gradient-to-br from-primary to-purple-400 dark:from-blue-700"></div>
         <div class="blur-[106px] h-32 bg-gradient-to-r from-cyan-400 to-sky-300 dark:to-indigo-600"></div>
     </div>
-    <Container>
-        <div class="relative pt-36 ml-auto">
-            <div class="lg:w-2/3 text-center mx-auto">
-                <h1 class="text-gray-900 dark:text-white font-bold text-5xl md:text-6xl xl:text-7xl">Building the next <span class="text-primary dark:text-white">web3 products</span></h1>
-                <p class="mt-8 text-gray-700 dark:text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam itaque sed eius modi error totam sit illum. Voluptas doloribus asperiores quaerat aperiam. Quidem harum omnis beatae ipsum soluta!</p>
-                <div class="mt-16 flex flex-wrap justify-center gap-y-4 gap-x-6">
-                    <a
-                      href="#"
-                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:bg-primary before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
-                    >
-                      <span class="relative text-base font-semibold text-white"
-                        >Get started</span
-                      >
-                    </a>
-                    <a
-                      href="#"
-                      class="relative flex h-11 w-full items-center justify-center px-6 before:absolute before:inset-0 before:rounded-full before:border before:border-transparent before:bg-primary/10 before:bg-gradient-to-b before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 dark:before:border-gray-700 dark:before:bg-gray-800 sm:w-max"
-                    >
-                      <span
-                        class="relative text-base font-semibold text-primary dark:text-white"
-                        >Learn more</span
-                      >
-                    </a>
-                </div>
-                <div class="hidden py-8 mt-16 border-y border-gray-100 dark:border-gray-800 sm:flex justify-between">
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The lowest price</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
-                    </div>
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The fastest on the market</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
-                    </div>
-                    <div class="text-left">
-                        <h6 class="text-lg font-semibold text-gray-700 dark:text-white">The most loved</h6>
-                        <p class="mt-2 text-gray-500">Some text here</p>
-                    </div>
-                </div>
-            </div>
-            <div class="mt-12 grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/microsoft.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/airbnb.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-                <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                  <img src="./images/clients/google.svg" class="h-9 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/ge.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                  <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/netflix.svg" class="h-8 w-auto m-auto" loading="lazy" alt="client logo" width="" height="" />
-                  </div>
-                <div class="p-4 grayscale transition duration-200 hover:grayscale-0">
-                    <img src="./images/clients/google-cloud.svg" class="h-12 w-auto mx-auto" loading="lazy" alt="client logo" width="" height="" />
-                </div>
-              </div>
+    
+      <div class="2xl:max-w-7xl items-center w-full rounded-[3rem] overflow-hidden relative xl:pl-40 xl:pr-40 lg:pt-40 lg:pb-40 lg:pl-16 lg:pr-16 md:pl-12 md:pr-12 pt-24 pb-24 pl-8 pr-8 bg-[radial-gradient(140%_107.13%_at_50%_10%,_transparent_37.41%,_rgba(54,_78,_245,_0.5)_69.27%,_rgb(102,_152,_255)_100%)] ml-auto mr-auto" style="background-color: rgb(15, 16, 20);">
+        <img class="lg:absolute -right-64 absolute w-px h-px p-0 -m-[1px] overflow-hidden [clip:rect(0px,_0px,_0px,_0px)] whitespace-nowrap border-0 max-w-full block align-middle" src="https://buio.lexingtonthemes.com/images/assets/cube.png" alt="">
+        <div class="max-w-xl">
+          <div class="mb-8 flex">
+            <span class="relative rounded-full text-sm text-white pt-1 pb-1 pl-3 pr-3 antialiased">
+      Bienvenido!
+      </span>
+          </div>
+          <div class="mt-6">
+            <h1 class="text-3xl tracking-tighter font-light lg:text-6xl text-white lg:leading-none leading-9 m-0 antialiased">
+      Cambia tus cryptos por
+      <span id="typewriter" class="block text-green-500 antialiased">pesos colombianos</span>
+      en instantes
+          </h1>
+          <p class="text-white m-0 antialiased text-xl font-light">
+     Es una plataforma descentralizada que te permitira cambiar cualquier stablecoin por FIAT sin KYC ni intermediarios, impulsado por contratos inteligentes.
+      </p>
+          <div class="inline-flex flex-wrap items-center mt-8">
+            <a href="/" type="a" class="text-sm border rounded-full border-transparent bg-white duration-200 hover:text-white inline-flex items-center justify-center hover:bg-[#ffffff1a] text-[#0f1014] leading-5 pt-2 pb-2 pl-4 pr-4 antialiased">
+      Ir al app
+      </a>
+          </div>
         </div>
-    </Container>
+      </div>
+      </div>
+   
 </div>
+<script>
+  const words = ["dolares", "pesos colombianos", "pesos argentinos", "reales brasileños"];
+  let i = 0;
+  let j = 0;
+  let currentWord = " ";
+  let isDeleting = false;
+  
+  function type() {
+  currentWord = words[i];
+
+  if (isDeleting) {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j - 1);
+    j--;
+
+    if (j === 0) {
+      isDeleting = false;
+      i++;
+
+      if (i === words.length) {
+        i = 0;
+      }
+
+      // Add a delay after deleting the word (750 milliseconds)
+      setTimeout(type, 140);
+    } else {
+      // Continue deleting characters with the same delay (250 milliseconds)
+      setTimeout(type, 140);
+    }
+  } else {
+    document.getElementById("typewriter").textContent = currentWord.substring(0, j + 1);
+    j++;
+
+    if (j === currentWord.length) {
+      isDeleting = true;
+
+      // Add a delay after typing the word (750 milliseconds)
+      setTimeout(type, 3010);
+    } else {
+      // Continue typing characters with the same delay (250 milliseconds)
+      setTimeout(type, 140);
+    }
+  }
+}
+
+
+  type();
+  </script>
