@@ -6,7 +6,7 @@ import Container from "./Container.astro";
 <div id="features">
   <div class="mx-auto 2xl:max-w-7xl py-12 lg:px-16 md:px-12 px-8 xl:px-40 items-center w-full">
     <div class="">
-       <span class="text-blue-400">Que es?</span>
+       <span class="text-blue-400">Beneficios</span>
        <h2 class="text-3xl tracking-tighter mt-6 font-light lg:text-4xl text-white">
            Manten la custodia de tus activos<span class="md:block text-zinc-400">y cambialos en unos minutos</span>
        </h2>
@@ -19,7 +19,7 @@ import Container from "./Container.astro";
           <h2 class="sr-only" hidden="" id="carousel-label">Carousel</h2>
           <span class="sr-only" hidden="" id="carousel-content-label">Carousel</span>
           <div class="grid grid-cols-1 lg:grid-cols-4 pb-6 border-b border-white/10">
-             <div class="items-center inline-flex lg:col-start-4 lg:ml-auto lg:px-2 mb-4 order-last space-x-2">
+             <!-- <div class="items-center inline-flex lg:col-start-4 lg:ml-auto lg:px-2 mb-4 order-last space-x-2">
                 <button class="bg-white/5 hover:bg-white/10 focus:bg-transparent rounded-2xl inline-flex items-center text-center text-white p-4 ring-1 ring-white/10" :class="{ 'opacity-50 cursor-not-allowed': atBeginning }" :aria-disabled="atBeginning" :tabindex="atEnd ? -1 : 0" x-on:click="prev" tabindex="0">
                    <span aria-hidden="true">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -36,7 +36,7 @@ import Container from "./Container.astro";
                    </span>
                    <span class="sr-only">Skip to next slide page</span>
                 </button>
-             </div>
+             </div> -->
           </div>
           <ul class="flex gap-3 overflow-x-scroll pb-24 pt-12 scrollbar-hide snap-mandatory snap-x w-full" role="listbox" aria-labelledby="carousel-content-label" tabindex="0" x-ref="slider">
              <li class="items-center justify-center w-full flex flex-col shrink-0 snap-start" role="option" x-bind="disableNextAndPreviousButtons">
@@ -54,8 +54,7 @@ import Container from "./Container.astro";
                                   Descentralizado
                                </p>
                                <p class="text-xs mt-2 text-zinc-300">
-                                  Tap into capital opportunities spanning various
-                                  industries, including SaaS, eCommerce, and more.
+                                 Compra o venda sin intermediarios ni custodia. Sus fondos, usted controla.
                                </p>
                             </div>
                          </figure>
@@ -69,11 +68,10 @@ import Container from "./Container.astro";
                                   <path d="M9 12l2 2l4 -4"></path>
                                </svg>
                                <p class="font-medium leading-6 text-white mt-24">
-                                  Rapido
+                                 Instantaneo
                                </p>
                                <p class="text-xs mt-2 text-zinc-300">
-                                  Boost customer acquisition by streamlining financing
-                                  processes for enhanced convenience.
+                                 Sistema de liquidacion automatico utilizando smart contracts y proveedores de tecnología web3 y fintech.
                                </p>
                             </div>
                          </figure>
@@ -87,11 +85,10 @@ import Container from "./Container.astro";
                                   <path d="M9 12l2 2l4 -4"></path>
                                </svg>
                                <p class="font-medium leading-6 text-white mt-24">
-                                 NO KYC
+                                 SIN KYC
                                </p>
                                <p class="text-xs mt-2 text-zinc-300">
-                                  Gain valuable insights into the well-being of your
-                                  customer base and uncover growth opportunities.
+                                 Podras mantener la autonomia, control y privacidad de tus datos.
                                </p>
                             </div>
                          </figure>
@@ -108,8 +105,7 @@ import Container from "./Container.astro";
                                   Sin fraudes
                                </p>
                                <p class="text-xs mt-2 text-zinc-300">
-                                  Develop a new revenue stream that aligns seamlessly with
-                                  your primary growth objectives.
+                                 Gracias al sistema de autoliquidacion de los contratos inteligente y fintech APIs eliminamos a actores malintencionados
                                </p>
                             </div>
                          </figure>
